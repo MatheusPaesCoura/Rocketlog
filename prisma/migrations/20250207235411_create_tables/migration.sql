@@ -26,7 +26,7 @@ CREATE TABLE "deliveries" (
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_at" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "deliveries_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "deliveries_key" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -37,7 +37,7 @@ CREATE TABLE "delivery_logs" (
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_at" TIMESTAMP(3) NOT NULL,
 
-    CONSTRAINT "delivery_logs_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "delivery_logs_key" PRIMARY KEY ("id")
 );
 
 -- AddForeignKey
